@@ -1,0 +1,112 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file OslHelpdesk.vbproj at May 26 2006, 18:58:37.
+
+=========================ERRORS===================
+
+=========================WARNINGS=================
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Removed attribute Codebehind from file AdComment.aspx.
+Warning: Access level of 'OslHelpdesk.AdComment' changed to 'Partial' in file AdComment.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file AdComment.aspx.vb.    AdComment.aspx.vb (Line 13)
+Removed attribute Codebehind from file adticket.aspx.
+Warning: Access level of 'OslHelpdesk.adticket' changed to 'Partial' in file adticket.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file adticket.aspx.vb.    adticket.aspx.vb (Line 13)
+Removed attribute Codebehind from file clticket.aspx.
+Warning: Access level of 'OslHelpdesk.clticket' changed to 'Partial' in file clticket.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file clticket.aspx.vb.    clticket.aspx.vb (Line 13)
+Removed attribute Codebehind from file default.aspx.
+Warning: Access level of 'OslHelpdesk._default' changed to 'Partial' in file default.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file default.aspx.vb.    default.aspx.vb (Line 14)
+Removed attribute Codebehind from file Global.asax.
+Removed attribute Codebehind from file login.aspx.
+Warning: Access level of 'OslHelpdesk.login' changed to 'Partial' in file login.aspx.vb (Line 5).
+Warning: Removed comment lines before designplaceholder declaration from file login.aspx.vb.    login.aspx.vb (Line 16)
+Removed attribute Codebehind from file opticket.aspx.
+Warning: Access level of 'OslHelpdesk.opticket' changed to 'Partial' in file opticket.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file opticket.aspx.vb.    opticket.aspx.vb (Line 13)
+Removed attribute Codebehind from file usercp.aspx.
+Warning: Access level of 'OslHelpdesk.usercp' changed to 'Partial' in file usercp.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file usercp.aspx.vb.    usercp.aspx.vb (Line 13)
+Removed attribute Codebehind from file vticket.aspx.
+Warning: Access level of 'OslHelpdesk.vticket' changed to 'Partial' in file vticket.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file vticket.aspx.vb.    vticket.aspx.vb (Line 13)
+Removed attribute Codebehind from file Wait.aspx.
+Warning: Access level of 'OslHelpdesk.Wait1' changed to 'Partial' in file Wait.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file Wait.aspx.vb.    Wait.aspx.vb (Line 13)
+Removed attribute Codebehind from file admin\adcomment.aspx.
+Warning: Access level of 'OslHelpdesk.AdComment1' changed to 'Partial' in file admin\AdComment.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\AdComment.aspx.vb.    admin\AdComment.aspx.vb (Line 13)
+Removed attribute Codebehind from file admin\addeditusers.aspx.
+Warning: Access level of 'OslHelpdesk.addeditusers' changed to 'Partial' in file admin\addeditusers.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\addeditusers.aspx.vb.    admin\addeditusers.aspx.vb (Line 13)
+Removed attribute Codebehind from file admin\adticket.aspx.
+Warning: Access level of 'OslHelpdesk.adticket1' changed to 'Partial' in file admin\adticket.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\adticket.aspx.vb.    admin\adticket.aspx.vb (Line 13)
+Removed attribute Codebehind from file admin\assignticket.aspx.
+Warning: Access level of 'OslHelpdesk.assignticket' changed to 'Partial' in file admin\assignticket.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\assignticket.aspx.vb.    admin\assignticket.aspx.vb (Line 13)
+Removed attribute Codebehind from file admin\clticket.aspx.
+Warning: Access level of 'OslHelpdesk.clticket1' changed to 'Partial' in file admin\clticket.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\clticket.aspx.vb.    admin\clticket.aspx.vb (Line 13)
+Removed attribute Codebehind from file admin\default.aspx.
+Warning: Access level of 'OslHelpdesk._default1' changed to 'Partial' in file admin\default.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\default.aspx.vb.    admin\default.aspx.vb (Line 14)
+Removed attribute Codebehind from file admin\listusers.aspx.
+Warning: Access level of 'OslHelpdesk.listusers' changed to 'Partial' in file admin\listusers.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\listusers.aspx.vb.    admin\listusers.aspx.vb (Line 13)
+Removed attribute Codebehind from file admin\opticket.aspx.
+Warning: Access level of 'OslHelpdesk.opticket1' changed to 'Partial' in file admin\opticket.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\opticket.aspx.vb.    admin\opticket.aspx.vb (Line 14)
+Removed attribute Codebehind from file admin\searchticket.aspx.
+Warning: Access level of 'OslHelpdesk.searchticket' changed to 'Partial' in file admin\searchticket.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\searchticket.aspx.vb.    admin\searchticket.aspx.vb (Line 13)
+Removed attribute Codebehind from file admin\usercp.aspx.
+Warning: Access level of 'OslHelpdesk.usercp1' changed to 'Partial' in file admin\usercp.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\usercp.aspx.vb.    admin\usercp.aspx.vb (Line 20)
+Removed attribute Codebehind from file admin\vticket.aspx.
+Warning: Access level of 'OslHelpdesk.vticket1' changed to 'Partial' in file admin\vticket.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\vticket.aspx.vb.    admin\vticket.aspx.vb (Line 14)
+Removed attribute Codebehind from file admin\wait.aspx.
+Warning: Access level of 'OslHelpdesk.Wait' changed to 'Partial' in file admin\Wait.aspx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file admin\Wait.aspx.vb.    admin\Wait.aspx.vb (Line 13)
+Warning: Access level of 'SearchTickets' changed to 'Public' in file da\ticket.vb (Line 226).
+Added folder App_Code\da.
+Moved file da\ticket.vb to the App_Code\da\ directory.
+Warning: Access level of 'UserID' changed to 'Public' in file da\user.vb (Line 15).
+Warning: Access level of 'UserLevel' changed to 'Public' in file da\user.vb (Line 29).
+Warning: Access level of 'UserEditID' changed to 'Public' in file da\user.vb (Line 42).
+Warning: Access level of 'UpdatePassword' changed to 'Public' in file da\user.vb (Line 50).
+Warning: Access level of 'CheckPassword' changed to 'Public' in file da\user.vb (Line 64).
+Warning: Access level of 'ValidUser' changed to 'Public' in file da\user.vb (Line 89).
+Warning: Access level of 'GetUserTypes' changed to 'Public' in file da\user.vb (Line 121).
+Warning: Access level of 'GetCompany' changed to 'Public' in file da\user.vb (Line 135).
+Warning: Access level of 'GetUsers' changed to 'Public' in file da\user.vb (Line 166).
+Warning: Access level of 'GetUser' changed to 'Public' in file da\user.vb (Line 182).
+Warning: Access level of 'InsertUser' changed to 'Public' in file da\user.vb (Line 226).
+Moved file da\user.vb to the App_Code\da\ directory.
+Warning: Access level of '_ConnectStr' changed to 'Public' in file da\dataaccess.vb (Line 14).
+Warning: Access level of 'ConnectStr' changed to 'Public' in file da\dataaccess.vb (Line 16).
+Warning: Access level of '_WebFolder' changed to 'Public' in file da\dataaccess.vb (Line 29).
+Warning: Access level of 'WebFolder' changed to 'Public' in file da\dataaccess.vb (Line 31).
+Warning: Access level of 'Server' changed to 'Public' in file da\dataaccess.vb (Line 45).
+Warning: Access level of 'Database' changed to 'Public' in file da\dataaccess.vb (Line 59).
+Warning: Access level of 'Username' changed to 'Public' in file da\dataaccess.vb (Line 73).
+Warning: Access level of 'Password' changed to 'Public' in file da\dataaccess.vb (Line 87).
+Moved file da\dataaccess.vb to the App_Code\da\ directory.
+Moved file Global.asax.vb to the App_Code\ directory.
+Moved file da\solution.vb to the App_Code\da\ directory.
+Moved file da\encryption.vb to the App_Code\da\ directory.
+Moved file da\email.vb to the App_Code\da\ directory.
+Moved file da\comment.vb to the App_Code\da\ directory.
+Moved file AssemblyInfo.vb to the App_Code\ directory.
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file Bin\OslHelpdesk.dll.
+Removed file Bin\OslHelpdesk.pdb.
+Removed file OslHelpdesk.vbproj.
+Removed file OslHelpdesk.vbproj.webinfo.
+Project OslHelpdesk.vbproj has been converted successfully at May 26 2006, 18:58:45.
