@@ -3,7 +3,6 @@
 
 # Custom for Visual Studio
 *.cs     diff=csharp
-*.vb     diff=vbnet
 *.aspx   diff=aspnet
 *aspx.vb diff=aspnet
 
